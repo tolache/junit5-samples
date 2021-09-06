@@ -17,4 +17,6 @@ public class Calculator {
 		return a + b;
 	}
 
+	public static int multiply(int a, int b) { throw new UnsupportedOperationException("Write a test first."); }
+
 }
