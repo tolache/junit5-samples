@@ -15,6 +15,7 @@ class CalculatorTests {
 	@BeforeEach
 	void setUp() {
 		calculator = new Calculator();
+		throw new RuntimeException("Intentional failure in setup method for demo purposes");
 	}
 
 	@Test
