@@ -11,12 +11,16 @@
 package com.example.project;
 
 public class Calculator {
-	private Calculator() {}
+	Calculator() {}
 
-	public static int add(int a, int b) {
+	public int add(int a, int b) {
 		return a + b;
 	}
 
-	public static int multiply(int a, int b) { throw new UnsupportedOperationException("Write a test first."); }
+	public int multiply(int a, int b) {
+		return a * b;
+	}
+
+	public int subract(int a, int b) { throw new UnsupportedOperationException("Write a test first."); }
 
 }
